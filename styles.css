@@ -1,0 +1,91 @@
+:root{
+    --fav-color: rgb(93, 255, 68)
+}
+body{
+    background-color: black;
+    color: var(--fav-color);
+    font-family: "Chewy"
+}
+h1{ 
+    color:var(--fav-color) ;
+    text-align: center;
+    font-family: "chewy";
+    margin-top: 80px;
+    font-size: 3rem;
+}
+ul {
+  color:var(--fav-color);
+  font-size: 1.3rem;
+  border: 1px solid var(--fav-color);
+  margin-bottom: 120px;
+}
+p{ 
+    text-align: center;
+}
+a {
+  color: var(--fav-color);
+}
+ul { border: 2px solid var(--fav-color); }
+.hank-img {
+  display: block;
+  width: 200px;        
+  margin: 20px auto;   
+  border-radius: 12px; 
+  align-items: flex-start;
+}
+.basic-info{
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.basic-info ul{
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+ul.facts{
+  border: 2px solid var(--fav-color);
+  display: inline-block;        
+  text-align: left;            
+  list-style-position: inside;                 
+  padding: 14px 18px 14px 18px;
+  margin: 0 auto;
+}
+.member-text{
+  text-align: center;
+}
+h3 {font-size: 1.4rem;}
+h4 {font-size: 1.4rem;}
+h5 {font-size: 1.4rem;}
+h6 {font-size: 1.4rem;}
+
+.gallery-img {
+  width: 250px; 
+  height: auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;    
+  gap: 16px;         
+  justify-content: center;
+}
+.member-img {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+.member {
+  margin-bottom: 80px;
+}
+#mySketch {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
